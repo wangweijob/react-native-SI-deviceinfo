@@ -1,0 +1,18 @@
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.quenice.cardview">
+
+    <application>
+        <receiver
+            android:name="com.quenice.cardview.RNDeviceReceiver"
+            android:enabled="true"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
+  
